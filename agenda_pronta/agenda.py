@@ -1,18 +1,4 @@
-# def -- definir metodos
-# pass -- passar *literalmente kk* , legal pra usar junto do #TOD0
-# pop -- exclui contato
 AGENDA = {}
-
-# AGENDA['Dimitri'] = {
-#     'Tel': '99288-8222',
-#     'Email': 'dimitrizumak41@gmail.com',
-#     'Endereco': 'Rua Rio Marambaia',
-# }
-# AGENDA['Maria'] = {
-#     'Tel': '99288-8252',
-#     'Email': 'maria223@gmail.com',
-#     'Endereco': 'Rua Rio Dos Vales',
-# }
 
 def mostrar_contatos():
     if len (AGENDA) > 0:
